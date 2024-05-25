@@ -4,6 +4,7 @@ import ContactForm from './components/ContactForm';
 import ContactList from './components/ContactList';
 import Modal from './components/Modal';
 import "./ContactPages.css"
+import ContactNavbar from './Navbar/ContactNavbar';
 
 const ContactPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -19,6 +20,8 @@ const ContactPage = () => {
   };
 
   return (
+    <>
+    <ContactNavbar/>
     <div className="contact-page">
       <button className='contact-page-button' onClick={openModal}>Add Contact</button>
       <ContactList setCurrentContact={setCurrentContact} />
@@ -26,6 +29,7 @@ const ContactPage = () => {
         <ContactForm currentContact={currentContact} setCurrentContact={setCurrentContact} />
       </Modal>
     </div>
+    </>
   );
 };
 
