@@ -1,0 +1,60 @@
+
+.contactList-text{
+    width: 400px;
+    height: 200px;
+    background-color: #a9c3f7;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.contactList-card-container{
+    margin: auto;
+    padding: 20px 10px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.contactList-card{
+    width: 250px;
+    /* height: 150px; */
+    background-color: rgb(220, 220, 245);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 500;
+    border: none;
+    border-radius: 10px;
+}
+.multi-btn-container{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.multi-btn-container button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff ;
+}
+.contantcard-name,.contantcard-sts{
+    margin: 10px 0;
+}
+.grn{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}

@@ -1,0 +1,22 @@
+/* Map.css */
+
+.mapContainer {
+    height: 600px;
+    width: 100%;
+  }
+  
+  .mapPopup img {
+    max-width: 100px;
+    margin: 5px 0;
+  }
+  
+  .mapPopup h3 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .mapPopup p {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  

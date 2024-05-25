@@ -1,0 +1,126 @@
+:root {
+    --blue: #c7d5f573;
+    --vio: #004effb4;
+    --white: #ffffff;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body { background-color: var(--blue);
+    border: none;
+     height: 100vh;
+    border-radius: 5px;
+  
+  }
+  .sidebar{
+    width: 300px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    background-color: var(--white);
+    border: none;
+    font-size: 18px;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .logo{
+    height: 70px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* text-align: center; */
+  }
+  .logo img{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+  }
+  .sidebarLinks{
+    margin: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    color: grey;
+  }
+  .sidebarLinks a{
+    /* padding-left: 50px; */
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 20px;
+    padding:0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: grey;
+  }
+  .sidebarLinks a:hover{
+    background-color: var(--vio);
+    color: var(--white);
+  }
+  hr{
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .sidebarUser{
+    height: 60px;
+    width: 250px;
+    display: flex;
+    gap: 20px;
+    /* justify-content: space-around; */
+    padding: 0 10px;
+    align-items: center;
+    margin: auto;
+    background-color: var(--vio);
+    /* margin-bottom: 10px; */
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    left: 15px;
+    color: var(--white);
+    cursor: pointer;
+  }
+  .sidebarUser img{
+    /* width: 35px; */
+    height: 35px;
+  }
+  .h400{
+    height: 400px;
+  }
+  .chatpage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .chatpagesection{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .chatUserSection{
+    width: 30%;
+    height: 89vh;
+    text-align: left;
+    border-right: 1px solid var(--vio);
+  }
+  .userChatSection{
+    width: 70%;
+  }
+  .allUser{
+    height: 75px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    border-bottom: 1px solid var(--vio);
+    padding-left: 50px;
+    color: var(--vio);
+    /* justify-content: center; */
+  }
